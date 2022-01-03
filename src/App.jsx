@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 
-import './App.css';
-import CreateNoteForm from './components/CreateNoteForm';
-import NoteList from './components/NoteList';
+import CreateNoteForm from './components/CreateNoteForm/CreateNoteForm';
+import NoteList from './components/NoteList/NoteList';
+import './assets/App.css';
+import './assets/index.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">      
+      <section className="content">      
         <CreateNoteForm />
         <NoteList />
-      </div>
+      </section>
     );
   }
 }

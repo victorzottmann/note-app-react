@@ -1,0 +1,17 @@
+body {
+  background-color: #282c34;
+}
+
+.content {
+  display: flex;
+}
+
+:root {
+  --primary: #58A4B0;
+  --secondary: #373f51;
+  --secondary-active: #CCC;
+  --background: #282c34;
+  --background-details: #ECECEC;
+}
+
+

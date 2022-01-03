@@ -6,10 +6,10 @@ class NoteCard extends Component {
   render() { 
     return (
       <section className='note-card'>
-        <header>
-          <h3>Title</h3>
+        <header className='note-card-header'>
+          <h3 className='note-card-title'>Title</h3>
         </header>
-        <p>Write something...</p>
+        <p className='note-card-text'>Write something...</p>
       </section>
     );
   }
