@@ -7,10 +7,10 @@ class NoteList extends Component {
   render() {
     return (
       <ul className='note-list'>
-        {Array.of("Work", "Work", "Studies").map((category, index) => {
+        {this.props.notes.map((note, index) => {
           return (
             <li className='note-list-item' key={index}>
-              <NoteCard />
+              <NoteCard title={note.title} text={note.text} />
             </li>
           );
         })}
